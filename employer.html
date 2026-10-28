@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Register your household requirements with DDHA.">
+  <title>Employer Registration | Dineo Domestic Helper Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container nav">
+
+      <a class="brand" href="index.html">
+        <img src="logo.png" alt="Dineo Domestic Helper Agency logo">
+        <span>Dineo Domestic Helper Agency</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+      <nav id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="employer.html" class="nav-cta">Employer Registration</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="form-wrap">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="section-label">EMPLOYER REGISTRATION</p>
+          <h2>Tell us exactly what kind of helper you need.</h2>
+          <p>Complete the form so DDHA can review your requirements.</p>
+        </div>
+
+        <form class="employer-form" id="employerForm">
+
+          <div class="form-grid">
+
+            <label>
+              Full Name *
+              <input type="text" name="Full Name" required>
+            </label>
+
+            <label>
+              Phone Number *
+              <input type="tel" name="Phone Number" required>
+            </label>
+
+            <label>
+              WhatsApp Number
+              <input type="tel" name="WhatsApp Number">
+            </label>
+
+            <label>
+              Email Address *
+              <input type="email" name="Email Address" required>
+            </label>
+
+            <label>
+              Location / Suburb *
+              <input type="text" name="Location / Suburb" required>
+            </label>
+
+            <label>
+              Type of Helper Required *
+              <select name="Type of Helper" required>
+                <option value="">Select</option>
+                <option>Domestic Helper</option>
+                <option>Nanny</option>
+                <option>Caregiver</option>
+                <option>Domestic Helper & Nanny</option>
+                <option>Other</option>
+              </select>
+            </label>
+
+            <label>
+              Employment Type *
+              <select name="Employment Type" required>
+                <option value="">Select</option>
+                <option>Full-time</option>
+                <option>Part-time</option>
+                <option>Temporary</option>
+                <option>Permanent</option>
+              </select>
+            </label>
+
+            <label>
+              Living Arrangement *
+              <select name="Living Arrangement" required>
+                <option value="">Select</option>
+                <option>Sleep-in</option>
+                <option>Sleep-out</option>
+                <option>Either</option>
+              </select>
+            </label>
+
+            <label>
+              Preferred Start Date
+              <input type="date" name="Preferred Start Date">
+            </label>
+
+            <label>
+              Expected Monthly Salary *
+              <input type="number" name="Expected Monthly Salary" min="0" step="50" placeholder="R 3,600" required>
+              <small>Recommended salary: R3,600 per month</small>
+            </label>
+
+            <label>
+              Number of Children
+              <input type="number" name="Number of Children" min="0">
+            </label>
+
+            <label>
+              Children's Ages
+              <input type="text" name="Children's Ages" placeholder="e.g. 2, 6 and 10">
+            </label>
+
+            <label>
+              Pets in Household
+              <select name="Pets">
+                <option>None</option>
+                <option>Yes</option>
+              </select>
+            </label>
+
+            <label>
+              Placement Package
+              <select name="Placement Package">
+                <option>R500 Standard Placement</option>
+                <option>R800 3-Month Replacement Package</option>
+              </select>
+            </label>
+
+            <label class="full">
+              Main Duties Required
+              <textarea name="Main Duties" rows="4" placeholder="Cleaning, washing, ironing, cooking, childcare, elderly care, etc."></textarea>
+            </label>
+
+            <label class="full">
+              Other Requirements
+              <textarea name="Other Requirements" rows="4" placeholder="Tell us about any other requirements or preferences."></textarea>
+            </label>
+
+          </div>
+
+          <label class="consent-row">
+            <input type="checkbox" name="Agreement" value="Agreed" required>
+            <span>
+              I confirm the information is accurate and agree to the
+              <a href="terms.html">Terms & Conditions</a>
+              and
+              <a href="privacy.html">Privacy Notice</a>.
+            </span>
+          </label>
+
+          <button class="btn form-submit" type="submit">Submit Employer Registration</button>
+
+          <p class="form-note">
+            Before launch, test the form and confirm email delivery.
+          </p>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+
+      <div>
+        <strong>Dineo Domestic Helper Agency</strong>
+        <p>We Are Here To Serve You</p>
+      </div>
+
+      <p>© <span data-year></span> Dineo Domestic Helper Agency. All rights reserved.</p>
+
+      <p>
+        <a href="privacy.html">Privacy</a>
+        &nbsp;|&nbsp;
+        <a href="terms.html">Terms</a>
+      </p>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
